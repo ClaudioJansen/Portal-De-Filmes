@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+  <head>
+    <title>Portal de Filmes</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" media="screen" type="text/css" href="style.css">
+  </head>
+
+  <body>
+    <header class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">
+          <img src="img/logo1.png">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+           <span class="navbar-toggler-icon"></span>
+        </button>
+
+         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto menu">
+              <li class="nav-item">
+                <a class="nav-link" href="#item-1">Lançamentos |</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#item-2">Em destaque |</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#item-3">Avaliações |</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#item-4">Entrevistas & makingof |</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#item-5">Novidades |</a>
+              </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0 menu">
+              <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search" id="pesquisar">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit" onclick="pesquisarFilme()">Search</button>
+            </form>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-fluid">
+      <div class="conteudo1">
+        <h2 class="titulo1" id="item-1">Lançamentos</h2>
+
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="videos">
+                <iframe width="100%" height="400" src="https://www.youtube.com/embed/RlfooqeZcdY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              <div class="conteudo-videos">
+                <h3>O Poço</h3>
+                <p>
+                  <span>Sinopse:</span> Nesta prisão, a comida é distribuída de cima para baixo. Quem está nos andares de cima come à vontade. Quem está nos andares embaixo fica com fome. Um prato cheio para uma rebelião
+                </p>
+                <p>
+                  <span>Diretor:</span> Galder Gaztelu-Urrutia <span>Roteiro:</span> David Desola & Pedro Rivero <span>Estreia:</span> 2020<br>
+                  <span>Elenco: </span><br> 
+                  Iván Massagué | Antonia San Juan | Zorion Eguileor | Emilio Buale | Alexandra Masangkay
+                </p>
+                <p  class="avaliacoes">
+                  <span>Avaliação:</span><br>
+                  <a href="#">
+                    <img src="img/star1.png" class="estrela-lançamentos">
+                  </a>
+
+                  <a href="#">
+                    <img src="img/star1.png" class="estrela-lançamentos">
+                  </a>
+
+                  <a href="#">
+                    <img src="img/star1.png" class="estrela-lançamentos">
+                  </a>
+
+                  <a href="#">
+                    <img src="img/star1.png" class="estrela-lançamentos">
+                  </a>
+
+                  <a href="#">
+                    <img src="img/star0.png" class="estrela-lançamentos">
+                  </a>
+                </p>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="videos">
+                <iframe width="100%" height="400" src="https://www.youtube.com/embed/3I3_j00uvqo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+
+              <div class="conteudo-videos">
+                <h3>O Último Guardião</h3>
+                <p>
+                  <span>Sinopse:</span> Quatro guerreiros com o dom da imortalidade protegem a humanidade há séculos. Mas seus misteriosos poderes viram alvo de ataque quando outra imortal entra em cena.
+                </p>
+                <p>
+                  <span>Diretor:</span> Gina Prince-Bythewood <span>Roteiro:</span> Greg Rucka <span>Estreia:</span> 2020
+                </p>
+                <p>
+                  <span>Elenco: </span><br>
+                  Charlize Theron | KiKi Layene | Marwan Kenzari | Luca Marinelli |  Harry Melling
+                </p>
+                <p  class="avaliacoes">
+                  <span>Avaliação:</span><br>
+                  <a href="#">
+                    <img src="img/star1.png" class="estrela-lançamentos">
+                  </a>
+
+                  <a href="#">
+                    <img src="img/star1.png" class="estrela-lançamentos">
+                  </a>
+
+                  <a href="#">
+                    <img src="img/star1.png" class="estrela-lançamentos">
+                  </a>
+
+                  <a href="#">
+                    <img src="img/star1.png" class="estrela-lançamentos">
+                  </a>
+
+                  <a href="#">
+                    <img src="img/star2.png" class="estrela-lançamentos">
+                  </a>
+                </p>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="videos">
+                <iframe width="100%" height="400" src="https://www.youtube.com/embed/MUS6nMMjLSk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+
+              <div class="conteudo-videos">
+                <h3>O Diabo de Cada Dia</h3>
+                <p>
+                  <span>Sinopse:</span> Pregadores profanos. Autodidades corruptas. Amantes assassinos. Numa cidade cheia de pecadores, um jovem busca justiça.
+                </p>
+                <p>
+                  <span>Diretor:</span> Antonio Campos <span>Roteiro:</span> Paulo Campos <span>Estreia:</span> 2020
+                </p>
+                <p>
+                  <span>Elenco: </span><br>
+                  Tom Holland | Bill Skarsgård | Robert Pattison | Mia Wasikowska | Jason Clarke
+                </p>
+                <p  class="avaliacoes">
+                  <span>Avaliação:</span><br>
+                  <a href="#">
+                    <img src="img/star1.png" class="estrela-lançamentos">
+                  </a>
+
+                  <a href="#">
+                    <img src="img/star1.png" class="estrela-lançamentos">
+                  </a>
+
+                  <a href="#">
+                    <img src="img/star1.png" class="estrela-lançamentos">
+                  </a>
+
+                  <a href="#">
+                    <img src="img/star1.png" class="estrela-lançamentos">
+                  </a>
+
+                  <a href="#">
+                    <img src="img/star2.png" class="estrela-lançamentos">
+                  </a>
+                </p>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="videos">
+                <iframe width="100%" height="400" src="https://www.youtube.com/embed/j-3s0-PEd4c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+
+              <div class="conteudo-videos">
+                <h3>Para todos os garotos: P.S. ainda amo você</h3>
+                <p>
+                  <span>Sinopse:</span> A história começou com cinco cartas de amor. Agora, são três corações em jogo. Bem-vindos de volta à vida de Lara Jean.
+                </p>
+                <p>
+                  <span>Diretor:</span> Michael Fimognari <span>Roteiro:</span> Sofia Alvarez <span>Estreia:</span> 2020
+                </p>
+                <p>
+                  <span>Elenco: </span><br>
+                  Lana Condor | Noah Centineo | Jordan Fisher | Anna Cathcart
+                </p>
+                <p class="avaliacoes">
+                  <span>Avaliação:</span><br>
+                  <a href="#">
+                    <img src="img/star1.png" class="estrela-lançamentos">
+                  </a>
+
+                  <a href="#">
+                    <img src="img/star1.png" class="estrela-lançamentos">
+                  </a>
+
+                  <a href="#">
+                    <img src="img/star1.png" class="estrela-lançamentos">
+                  </a>
+
+                  <a href="#">
+                    <img src="img/star1.png" class="estrela-lançamentos">
+                  </a>
+
+                  <a href="#">
+                    <img src="img/star0.png" class="estrela-lançamentos">
+                  </a>
+                </p>
+              </div> <!-- conteudo-videos -->
+            </div> <!-- carousel-item -->
+          </div> <!-- carousel-inner -->
+        </div> <!-- carousel slide -->
+      </div> <!-- conteudo1 -->
+      
+      <div class="conteudo2 clear">
+        <h2 class="titulo2" id="item-2">Em Destaque</h2>
+        <div class="dropdown">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Categoria: TODOS
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <button type="button" class="dropdown-item">Todos</button>
+            <button type="button" class="dropdown-item">Aventura</button>
+            <button type="button" class="dropdown-item">Romance</button>
+            <button type="button" class="dropdown-item">Comédia</button>
+          </div>
+        </div>
+
+        <div class="row clear" id="lista-filmes">
+          <div class="col-xl-3 col-md-6 col-lg-4">
+            <a href="https://www.netflix.com/watch/80019608?trackId=13752289&tctx=0%2C0%2C7133e9eb30568cc68e8e047ec0fb272ed7895fdd%3A06f3cac016e9d96f1bd3c896350eebaf198858b1%2C7133e9eb30568cc68e8e047ec0fb272ed7895fdd%3A06f3cac016e9d96f1bd3c896350eebaf198858b1%2Cunknown%2C">
+              <img src="img/foto-filme1.jpg" class="fotos-filmes">
+            </a>
+          </div>
+
+          <div class="col-xl-3 col-md-6 col-lg-4">
+            <a href="https://www.netflix.com/watch/60029167?trackId=13752289&tctx=0%2C0%2Cf0d77372cdd51d52e4d4071c1c3145bf0adbf712%3Aedd9dd7231d6baa068b265fef43b9ac75bcde18b%2Cf0d77372cdd51d52e4d4071c1c3145bf0adbf712%3Aedd9dd7231d6baa068b265fef43b9ac75bcde18b%2Cunknown%2C">
+              <img src="img/foto-filme2.jpg" class="fotos-filmes">
+            </a>
+          </div>
+
+          <div class="col-xl-3 col-md-6 col-lg-4">
+            <a href="https://www.netflix.com/watch/80166369?trackId=13752289&tctx=-97%2C-97%2C%2C%2C%2C">
+              <img src="img/foto-filme3.jpg" class="fotos-filmes">
+            </a>
+          </div>
+
+          <div class="col-xl-3 col-md-6" id="sumir-filme">
+            <a href="https://www.netflix.com/watch/60024925?trackId=13752289&tctx=0%2C0%2C9025ded9f3ede5d117da80cbf41c5af0fe0ee02d%3A5d4d40601af850854ad07d24c57de6190407a939%2C9025ded9f3ede5d117da80cbf41c5af0fe0ee02d%3A5d4d40601af850854ad07d24c57de6190407a939%2Cunknown%2C"> 
+              <img src="img/foto-filme4.jpg" class="fotos-filmes">
+            </a>
+          </div>
+        </div>
+
+        <div class="sumir-carregar-mais-filmes" id="mais">
+            <a class="sumir-carregar-mais-filmes" href="https://www.netflix.com/watch/81277950?trackId=13752289&tctx=0%2C0%2C24c377da00c758311c57b145e661bc8d853ac6fc%3Aca51ab27f1ee890f39a955e22ec01574877c48d9%2C24c377da00c758311c57b145e661bc8d853ac6fc%3Aca51ab27f1ee890f39a955e22ec01574877c48d9%2Cunknown%2C">
+              <img src="img/foto-filme5.jpg" class="fotos-filmes2 foto-filme-esquerda">
+            </a>
+
+            <a class="sumir-carregar-mais-filmes" href="https://www.netflix.com/watch/70218677?trackId=13752289&tctx=0%2C0%2Ce86d97739a2d1f4bcd20a821026389110a7f700a%3Abdb2fa045954919ca8ed72c7946d53d0cb6170ab%2Ce86d97739a2d1f4bcd20a821026389110a7f700a%3Abdb2fa045954919ca8ed72c7946d53d0cb6170ab%2Cunknown%2C">
+              <img src="img/foto-filme6.jpg" class="fotos-filmes2">
+            </a>
+
+            <a class="sumir-carregar-mais-filmes" href="https://www.netflix.com/watch/80044538?trackId=13752289&tctx=0%2C0%2C769b18645fac2095387ffa21b8c30fcb79b8d6f8%3A4a3fc7117c08bc2f48f01c868753beaab5e73503%2C769b18645fac2095387ffa21b8c30fcb79b8d6f8%3A4a3fc7117c08bc2f48f01c868753beaab5e73503%2Cunknown%2C">
+              <img src="img/foto-filme7.jpg" class="fotos-filmes2">
+            </a>
+
+            <a class="sumir-carregar-mais-filmes" href="https://www.netflix.com/watch/80038359?trackId=13752289&tctx=0%2C0%2C0f5cb994a933f39565a7c9f8f9d7f419fb3f08ee%3A234adbe1afd253057a76a5843acd387419231217%2C0f5cb994a933f39565a7c9f8f9d7f419fb3f08ee%3A234adbe1afd253057a76a5843acd387419231217%2Cunknown%2C"> 
+              <img src="img/foto-filme8.jpg" class="fotos-filmes2 foto-filme-direita">
+            </a>
+        </div>
+
+        <button onclick="carregarMaisFilmes()" type="button" class="btn btn-secondary carregar-mais-filmes1 sumir-carregar-mais-filmes" id="btnCarregarMais">- Carregar menos filmes</button>
+
+        <a href="https://www.netflix.com/">
+          <button type="button" class="btn btn-secondary carregar-mais-filmes1 aparecer-carregar-mais-filmes" id="btnCarregarMais">+ Carregar mais filmes</button>
+        </a>
+        
+
+        <h2 class="titulo2" id="item-3">Últimas Avaliações</h2>
+
+        <div class="card-deck clear">
+          <div class="row">
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+              <div class="card">
+                <img src="img/pessoa1.jpg" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">Matheus M.</h5>
+                  <p class="card-text">
+                    Velozes & Furiosos 7<br><br>
+                    <span class="no-bold">Ótimo filme! Boa trilha sonora, história e homenagem a morte de Paul Walker. Me surpreendeu.</span><br>
+                    <!--<button onclick="verMais()" id="btnLeiaMais">Ver mais...</button>-->
+                  </p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">
+                    <a href="#">
+                      <img src="img/star1.png" class="estrelas">
+                    </a>
+                    <a href="#">
+                      <img src="img/star1.png" class="estrelas">
+                    </a>
+                    <a href="#">
+                      <img src="img/star1.png" class="estrelas">
+                    </a>
+                    <a href="#">
+                      <img src="img/star1.png" class="estrelas">
+                    </a>
+                    <a href="#">
+                      <img src="img/star1.png" class="estrelas">
+                    </a>
+                    <span class="card-data">15/04/2015</span>
+                  </small>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+              <div class="card">
+                <img src="img/pessoa2.jpg" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">Wesleyaxe</h5>
+                  <p class="card-text">
+                    Bad Boys 2<br><br>
+                    <span class="no-bold mais">Filmaço que marcou muito! Química perfeita entre os protagonistas Will Smith e Martin Lawrence. Muito bom.</span><br>
+                  </p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">
+                    <a href="#">
+                      <img src="img/star1.png" class="estrelas">
+                    </a>
+                    <a href="#">
+                      <img src="img/star1.png" class="estrelas">
+                    </a>
+                    <a href="#">
+                      <img src="img/star1.png" class="estrelas">
+                    </a>
+                    <a href="#">
+                      <img src="img/star1.png" class="estrelas">
+                    </a>
+                    <a href="#">
+                      <img src="img/star0.png" class="estrelas">
+                    </a>
+                    <span class="card-data">09/02/2012</span>
+                  </small>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+              <div class="card">
+                <img src="img/pessoa4.jpg" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">Guilherme S.</h5>
+                  <p class="card-text">
+                    Homem Aranha de Volta ao Lar<br><br>                
+                    <span class="no-bold mais">Tem clichê em algumas partes, mas em geral o filme é bom. Com a participação do Homem de Ferro destacou ainda mais.</span><br>
+                  </p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">
+                    <a href="#">
+                      <img src="img/star1.png" class="estrelas">
+                    </a>
+                    <a href="#">
+                      <img src="img/star1.png" class="estrelas">
+                    </a>
+                    <a href="#">
+                      <img src="img/star1.png" class="estrelas">
+                    </a>
+                    <a href="#">
+                      <img src="img/star2.png" class="estrelas">
+                    </a>
+                    <a href="#">
+                      <img src="img/star0.png" class="estrelas">
+                    </a>
+                    <span class="card-data">05/11/2017</span>
+                  </small>
+                </div> <!-- card footer -->
+              </div> <!-- card -->
+            </div> <!-- col -->
+
+            <div class="col-md-6 sumir-card">
+              <div class="card">
+                <img src="img/pessoa1.jpg" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">Sandro P.</h5>
+                  <p class="card-text">
+                    Harry Potter e a Câmara Secreta<br><br>                
+                    <span class="no-bold mais">Não sou muito fã da série, mas o filme é muito bem feito e também achei esse melhor que o primeiro...</span><br>
+                  </p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">
+                    <a href="#">
+                      <img src="img/star1.png" class="estrelas">
+                    </a>
+                    <a href="#">
+                      <img src="img/star1.png" class="estrelas">
+                    </a>
+                    <a href="#">
+                      <img src="img/star1.png" class="estrelas">
+                    </a>
+                    <a href="#">
+                      <img src="img/star0.png" class="estrelas">
+                    </a>
+                    <a href="#">
+                      <img src="img/star0.png" class="estrelas">
+                    </a>
+                    <span class="card-data">09/02/2012</span>
+                  </small>
+                </div> <!-- card footer -->
+              </div> <!-- card -->
+            </div> <!-- col -->
+          </div> <!-- row -->
+        </div> <!-- card-deck -->
+
+        <div class="card-deck" id="mais2">
+          <div class="row">
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+              <div class="card">
+                <img src="img/pessoa3.jpg" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">Larissa Mezavila</h5>
+                  <p class="card-text">
+                    Enola Holmes<br><br>
+                    <span class="no-bold">Mistura de Sherlock Holmes e feminismo muito bem equilibrada, elenco de peso e proposta maravilhosa!</span><br>
+                    <!--<button onclick="verMais()" id="btnLeiaMais">Ver mais...</button>-->
+                  </p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">
+                    <a href="#">
+                      <img src="img/star1.png" class="estrelas">
+                    </a>
+                    <a href="#">
+                      <img src="img/star1.png" class="estrelas">
+                    </a>
+                    <a href="#">
+                      <img src="img/star1.png" class="estrelas">
+                    </a>
+                    <a href="#">
+                      <img src="img/star1.png" class="estrelas">
+                    </a>
+                    <a href="#">
+                      <img src="img/star1.png" class="estrelas">
+                    </a>
+                    <span class="card-data">27/09/2020</span>
+                  </small>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+              <div class="card">
+                <img src="img/pessoa2.jpg" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">Luís D.</h5>
+                  <p class="card-text">
+                    Pense como Eles<br><br>
+                    <span class="no-bold mais">Que horror! Um dos piores filmes que eu já vi, em toda a minha vida !!!</span><br>
+                  </p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">
+                    <a href="#">
+                      <img src="img/star2.png" class="estrelas">
+                    </a>
+                    <a href="#">
+                      <img src="img/star0.png" class="estrelas">
+                    </a>
+                    <a href="#">
+                      <img src="img/star0.png" class="estrelas">
+                    </a>
+                    <a href="#">
+                      <img src="img/star0.png" class="estrelas">
+                    </a>
+                    <a href="#">
+                      <img src="img/star0.png" class="estrelas">
+                    </a>
+                    <span class="card-data">01/03/2014</span>
+                  </small>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+              <div class="card">
+                <img src="img/pessoa4.jpg" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">Davi Barbosa</h5>
+                  <p class="card-text">
+                    Quarto de Guerra<br><br>                
+                    <span class="no-bold mais">O filme é excelente, pois nos faz refletir no valor da família e mostra que Jesus é o único que pode restaurar um casamento em crise.</span><br>
+                  </p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">
+                    <a href="#">
+                      <img src="img/star1.png" class="estrelas">
+                    </a>
+                    <a href="#">
+                      <img src="img/star1.png" class="estrelas">
+                    </a>
+                    <a href="#">
+                      <img src="img/star1.png" class="estrelas">
+                    </a>
+                    <a href="#">
+                      <img src="img/star1.png" class="estrelas">
+                    </a>
+                    <a href="#">
+                      <img src="img/star1.png" class="estrelas">
+                    </a>
+                    <span class="card-data">07/12/2015</span>
+                  </small>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 sumir-card">
+              <div class="card">
+                <img src="img/pessoa1.jpg" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">Igor C</h5>
+                  <p class="card-text">
+                    Missão: Impossível – Nação Secreta<br><br>                
+                    <span class="no-bold mais">O filme é bom, mas ficou a desejar no roteiro que ficou muito limitado. Ótimas cenas de ação e um bom toque de humor.</span><br>
+                  </p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">
+                    <a href="#">
+                      <img src="img/star1.png" class="estrelas">
+                    </a>
+                    <a href="#">
+                      <img src="img/star1.png" class="estrelas">
+                    </a>
+                    <a href="#">
+                      <img src="img/star1.png" class="estrelas">
+                    </a>
+                    <a href="#">
+                      <img src="img/star1.png" class="estrelas">
+                    </a>
+                    <a href="#">
+                      <img src="img/star2.png" class="estrelas">
+                    </a>
+                    <span class="card-data">24/11/2018</span>
+                  </small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button onclick="carregarMaisAvaliacoes()" type="button" class="btn btn-secondary carregar-mais-filmes3" id="btnCarregarMais2">- Carregar menos avaliações</button>
+      </div>
+
+      <div class="conteudo3 clear">
+        <h2 class="titulo3" id="item-4">Entrevistas & Making Of</h2>
+        <div class="card-deck box-videos-entrevistas">
+          <div class="card videos-entrevistas">
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/E1rDaAtyESs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="card-body texto-entrevistas">
+              <h4 class="card-title inline">Filme:</h4> 
+              <p class="card-text inline">
+                O Filme da Minha Vida
+              </p>
+              <p class="card-text">
+                <span>Diretor:</span> Selton Mello<br>
+                <span>Roteiro:</span> Marcelo Vindicatto<br>
+                <span>Estreia:</span> 2017<br>
+              </p>
+            </div>
+          </div>
+          <div class="card videos-entrevistas">
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/E3LR9A7J4Wc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="card-body texto-entrevistas">
+              <h4 class="card-title inline">Filme:</h4> 
+              <p class="card-text inline">
+                Sonic: O Filme
+              </p>
+              <p class="card-text">
+                <span>Diretor:</span> Jeff Fowler<br>
+                <span>Roteiro:</span> Jeff Fowler<br>
+                <span>Estreia:</span> 2020<br>
+              </p>
+            </div>
+          </div>
+          <div class="card videos-entrevistas">
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/r9nlsaSpFvM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="card-body texto-entrevistas">
+              <h4 class="card-title inline">Filme:</h4> 
+              <p class="card-text inline">
+                Bohemian Rhapsody
+              </p>
+              <p class="card-text">
+                <span>Diretor:</span> Bryan Singer<br>
+                <span>Roteiro:</span> ‎Anthony McCarten<br>
+                <span>Estreia:</span> 2018<br>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="conteudo4 clear">
+        <div class="tam-992px-mais">
+          <div class="row">
+            <div class="col-xl-3 col-lg-3">
+              <h2 class="titulo4" id="item-5">Novidades</h2>
+              <a href="https://www.bbc.com/portuguese/geral-51108186">
+                <img src="img/foto-1917.jpg" class="fotos-novidades">
+              </a>
+              <hr>
+              <a href="https://g1.globo.com/pop-arte/cinema/noticia/2019/11/14/coringa-como-o-filme-protagonizado-por-joaquin-phoenix-se-tornou-adaptacao-de-quadrinhos-de-maior-retorno-da-historia.ghtml">
+                <img src="img/foto-joker.jpg" class="fotos-novidades">
+              </a>             
+              <hr>
+              <a href="https://entretenimento.uol.com.br/noticias/redacao/2020/02/10/parasita-ganha-o-oscar-de-melhor-filme.html">
+                <img src="img/foto-parasite.jpg" class="fotos-novidades">
+              </a>             
+            </div>
+
+            <div class="col-xl-5 col-lg-5">
+              <div class="texto-novidade1">
+                <h4>Oscar 2020: A história que inspirou ‘1917’</h4><br>Segundo o diretor relatou em um podcast da revista especializada Variety, a história de 1917 se baseia no relato que seu avô, Alfred Mendes, lhe fez na infância. <a href="https://www.bbc.com/portuguese/geral-51108186">Ver Mais...</a><br>
+                <span class="badge badge-secondary" class="botao-oscar">Oscar</span>
+                <span class="badge badge-secondary" class="botao-oscar">Hollyhood</span>
+              </div>
+
+              <div class="texto-novidade2">
+                <h4>Coringa se tornou adaptação de quadrinhos de maior retorno da história</h4><br> O filme de Todd Phillips conseguiu arrecadar 15 vezes o valor gasto com sua produção; e a receita deve aumentar quando 'Coringa' for lançado na China. <a href="https://g1.globo.com/pop-arte/cinema/noticia/2019/11/14/coringa-como-o-filme-protagonizado-por-joaquin-phoenix-se-tornou-adaptacao-de-quadrinhos-de-maior-retorno-da-historia.ghtml">Ver Mais...</a><br>
+                <span class="badge badge-secondary">Oscar</span>
+                <span class="badge badge-secondary">DC</span>
+              </div>
+
+              <div class="texto-novidade3">
+                <h4>"Parasita" ganha o Oscar de melhor filme e fecha noite como maior premiado</h4><br> É a primeira vez que a estatueta mais concorrida da principal premiação do cinema fica com a Coreia do Sul. <a href="https://entretenimento.uol.com.br/noticias/redacao/2020/02/10/parasita-ganha-o-oscar-de-melhor-filme.html">Ver Mais...</a><br>
+                <span class="badge badge-secondary">Oscar</span>
+                <span class="badge badge-secondary">Melhor Filme</span>
+              </div>
+              
+            </div>
+
+            <div class="col-xl-4 col-lg-4">
+              <div class="altura">
+                <h2 class="titulo4">Sobre</h2>
+                <div class="sobre">
+                  Esse site foi desenvolvido pelo aluno Cláudio Jansen para um trabalho da Disciplina de Desenvolvimento de Interfaces Web do curso Ciência da Computação da PUC Minas. Para realização do mesmo, os conteúdos foram adaptados da netflix, do youtube e do site adorocinema.
+                </div>
+              </div>
+
+
+              <div class="altura">
+                <h2 class="titulo4">Editorial</h2>
+                <div>
+                  <img src="img/icone-perfil.png" class="icone-perfil">
+                  <span>Redação:</span> Cláudio Jansen<br>
+                  <img src="img/icone-perfil.png" class="icone-perfil">
+                  <span>Pesquisa:</span> Cláudio Jansen<br>
+                  <img src="img/icone-perfil.png" class="icone-perfil">
+                  <span>Gerente Geral:</span> Cláudio Jansen
+                </div>
+                <h4 class="titulo4">Redes Sociais</h4>
+                <div>
+                  <a href="https://www.facebook.com/caujansen/">
+                    <img src="img/icone-facebook.png" class="icone-redes-sociais">
+                  </a>
+
+                  <a href="https://twitter.com/home">
+                    <img src="img/icone-twitter.png" class="icone-redes-sociais">
+                  </a>
+
+                  <a href="https://www.instagram.com/caujansen/">
+                    <img src="img/icone-instagram.png" class="icone-redes-sociais">
+                  </a>
+                </div>
+              </div>   
+            </div>
+          </div> <!-- row -->
+        </div> <!-- tam-992px-mais -->
+
+        <div class="tam-720px-mais-991px-menos">
+          <div class="row">
+            <div class="col-4">
+              <h2 class="titulo4">Novidades</h2>
+              <a href="https://www.bbc.com/portuguese/geral-51108186">
+                <img src="img/foto-1917.jpg" class="fotos-novidades">
+              </a>             
+              <hr>
+              <a href="https://g1.globo.com/pop-arte/cinema/noticia/2019/11/14/coringa-como-o-filme-protagonizado-por-joaquin-phoenix-se-tornou-adaptacao-de-quadrinhos-de-maior-retorno-da-historia.ghtml">
+                <img src="img/foto-joker.jpg" class="fotos-novidades">
+              </a>
+              <hr>
+              <a href="https://entretenimento.uol.com.br/noticias/redacao/2020/02/10/parasita-ganha-o-oscar-de-melhor-filme.html">
+                <img src="img/foto-parasite.jpg" class="fotos-novidades">
+              </a>
+            </div>
+
+            <div class="col-8">
+              <div class="texto-novidade1">
+                <h4>Oscar 2020: A história que inspirou ‘1917’</h4><br>Segundo o diretor relatou em um podcast da revista especializada Variety, a história de 1917 se baseia no relato que seu avô, Alfred Mendes, lhe fez na infância. <a href="https://www.bbc.com/portuguese/geral-51108186">Ver Mais...</a><br>
+                <span class="badge badge-secondary" class="botao-oscar">Oscar</span>
+                <span class="badge badge-secondary" class="botao-oscar">Hollyhood</span>
+              </div>
+
+              <div class="texto-novidade2">
+                <h4>Coringa se tornou adaptação de quadrinhos de maior retorno da história</h4><br> O filme de Todd Phillips conseguiu arrecadar 15 vezes o valor gasto com sua produção; e a receita deve aumentar quando 'Coringa' for lançado na China. <a href="https://g1.globo.com/pop-arte/cinema/noticia/2019/11/14/coringa-como-o-filme-protagonizado-por-joaquin-phoenix-se-tornou-adaptacao-de-quadrinhos-de-maior-retorno-da-historia.ghtml">Ver Mais...</a><br>
+                <span class="badge badge-secondary">Oscar</span>
+                <span class="badge badge-secondary">DC</span>
+              </div>
+
+              <div class="texto-novidade3">
+                <h4>"Parasita" ganha o Oscar de melhor filme e fecha noite como maior premiado</h4><br> É a primeira vez que a estatueta mais concorrida da principal premiação do cinema fica com a Coreia do Sul. <a href="https://entretenimento.uol.com.br/noticias/redacao/2020/02/10/parasita-ganha-o-oscar-de-melhor-filme.htm">Ver Mais...</a><br>
+                <span class="badge badge-secondary">Oscar</span>
+                <span class="badge badge-secondary">Melhor Filme</span>
+              </div>  
+            </div>
+          </div>
+            
+          <div class="row">
+            <div class="col-6">
+              <h2 class="titulo4">Sobre</h2>
+              <div class="sobre">
+                Esse site foi desenvolvido pelo aluno Cláudio Jansen para um trabalho da Disciplina de Desenvolvimento de Interfaces Web do curso Ciência da Computação da PUC Minas. Para realização do mesmo, os conteúdos foram adaptados da netflix, do youtube e do site adorocinema.
+              </div>
+            </div>
+
+            <div class="col-6">
+              <h2 class="titulo4">Editorial</h2>
+              <div>
+                <img src="img/icone-perfil.png" class="icone-perfil">
+                <span>Redação:</span> Cláudio Jansen<br>
+                <img src="img/icone-perfil.png" class="icone-perfil">
+                <span>Pesquisa:</span> Cláudio Jansen<br>
+                <img src="img/icone-perfil.png" class="icone-perfil">
+                <span>Gerente Geral:</span> Cláudio Jansen
+              </div>
+              <h4 class="titulo4">Redes Sociais</h4>
+              <div>
+                <a href="https://www.facebook.com/caujansen/">
+                  <img src="img/icone-facebook.png" class="icone-redes-sociais">
+                </a>
+
+                <a href="https://twitter.com/home">
+                  <img src="img/icone-twitter.png" class="icone-redes-sociais">
+                </a>
+
+                <a href="https://www.instagram.com/caujansen/">
+                  <img src="img/icone-instagram.png" class="icone-redes-sociais">
+                </a>
+              </div> 
+            </div>
+          </div> <!-- row -->
+        </div> <!-- tam-720px-mais-991px-menos -->
+
+        <div class="tam-719px-menos">
+          <h2 class="titulo4">Novidades</h2>
+          <div class="row">
+            <div class="col-12">
+              <a href="https://www.bbc.com/portuguese/geral-51108186">
+                <img src="img/foto-1917.jpg" class="fotos-novidades">
+              </a>
+            </div>
+            <div class="col-12">
+              <h4>Oscar 2020: A história que inspirou ‘1917’</h4><br>Segundo o diretor relatou em um podcast da revista especializada Variety, a história de 1917 se baseia no relato que seu avô, Alfred Mendes, lhe fez na infância. <a href="https://www.bbc.com/portuguese/geral-51108186">Ver Mais...</a><br>
+                <span class="badge badge-secondary" class="botao-oscar">Oscar</span>
+                <span class="badge badge-secondary" class="botao-oscar">Hollyhood</span>
+            </div>
+          </div> <!-- row -->
+
+          <hr>
+
+          <div class="row">
+            <div class="col-12">
+              <a href="https://g1.globo.com/pop-arte/cinema/noticia/2019/11/14/coringa-como-o-filme-protagonizado-por-joaquin-phoenix-se-tornou-adaptacao-de-quadrinhos-de-maior-retorno-da-historia.ghtml">
+                <img src="img/foto-joker.jpg" class="fotos-novidades">
+              </a>           
+            </div>
+
+            <div class="col-12">
+              <h4>Coringa se tornou adaptação de quadrinhos de maior retorno da história</h4><br> O filme de Todd Phillips conseguiu arrecadar 15 vezes o valor gasto com sua produção; e a receita deve aumentar quando 'Coringa' for lançado na China. <a href="https://g1.globo.com/pop-arte/cinema/noticia/2019/11/14/coringa-como-o-filme-protagonizado-por-joaquin-phoenix-se-tornou-adaptacao-de-quadrinhos-de-maior-retorno-da-historia.ghtml">Ver Mais...</a><br>
+                <span class="badge badge-secondary">Oscar</span>
+                <span class="badge badge-secondary">DC</span>
+            </div>
+          </div> <!-- row -->
+
+          <hr>
+
+          <div class="row">
+            <div class="col-12">
+              <a href="https://entretenimento.uol.com.br/noticias/redacao/2020/02/10/parasita-ganha-o-oscar-de-melhor-filme.html">
+                <img src="img/foto-parasite.jpg" class="fotos-novidades">
+              </a>
+            </div>
+
+            <div class="col-12">
+              <h4>"Parasita" ganha o Oscar de melhor filme e fecha noite como maior premiado</h4><br> É a primeira vez que a estatueta mais concorrida da principal premiação do cinema fica com a Coreia do Sul. <a href="https://entretenimento.uol.com.br/noticias/redacao/2020/02/10/parasita-ganha-o-oscar-de-melhor-filme.html">Ver Mais...</a><br>
+                <span class="badge badge-secondary">Oscar</span>
+                <span class="badge badge-secondary">Melhor Filme</span>
+            </div>
+          </div> <!-- row -->
+
+
+          <div class="row">
+            <div class="col-6">
+              <h2 class="titulo4">Sobre</h2>
+              <div class="sobre">
+                Esse site foi desenvolvido pelo aluno Cláudio Jansen para um trabalho da Disciplina de Desenvolvimento de Interfaces Web do curso Ciência da Computação da PUC Minas. Para realização do mesmo, os conteúdos foram adaptados da netflix, do youtube e do site adorocinema.
+              </div>
+            </div>
+
+            <div class="col-6">
+              <h2 class="titulo4">Editorial</h2>
+              <div>
+                <img src="img/icone-perfil.png" class="icone-perfil">
+                <span>Redação:</span> Cláudio Jansen<br>
+                <img src="img/icone-perfil.png" class="icone-perfil">
+                <span>Pesquisa:</span> Cláudio Jansen<br>
+                <img src="img/icone-perfil.png" class="icone-perfil">
+                <span>Gerente Geral:</span> Cláudio Jansen
+              </div>
+              <h4 class="titulo4">Redes Sociais</h4>
+              <div>
+                <a href="https://www.facebook.com/caujansen/">
+                  <img src="img/icone-facebook.png" class="icone-redes-sociais">
+                </a>
+
+                <a href="https://twitter.com/home">
+                  <img src="img/icone-twitter.png" class="icone-redes-sociais">
+                </a>
+
+                <a href="https://www.instagram.com/caujansen/">
+                  <img src="img/icone-instagram.png" class="icone-redes-sociais">
+                </a>
+              </div> 
+            </div>
+          </div> <!-- row -->
+        </div> <!-- tam-719px-menos -->
+      </div> <!-- conteudo4 -->
+    </main>
+
+    <footer class="container-fluid clear">
+      <div class="rodape">
+        <span class="no-bold" class="copyright">Copyright 2020 -</span><span class="disciplina"> Cláudio Manoel Jansen de Oliveira - </span><span class="no-bold direitos-reservados">Todos os Direitos Reservados</span>
+        <a href="#">
+          <img src="img/logo.png">
+        </a> 
+      </div>
+    </footer>
+
+    <script type="text/javascript" src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </body>
+</html>
