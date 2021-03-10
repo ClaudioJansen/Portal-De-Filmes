@@ -5,4 +5,4 @@ Site de filmes desenvolvido com conteúdos adaptados da netflix, do youtube, e d
 # 
 |Site|
 | --- |
-| ![sample Chat-Bot](https://media3.giphy.com/media/ogMAyLDynJnXrJos3w/giphy.gif) | 
+| ![sample Chat-Bot](https://gfycat.com/assets/23968fa52b57e25c0a8e35bebc324202.gif | 
