@@ -5,4 +5,4 @@ Site de filmes desenvolvido com conteúdos adaptados da netflix, do youtube, e d
 # 
 |Site|
 | --- |
-| ![sample Chat-Bot](https://github.com/ClaudioJansen/Portal-De-Filmes/blob/main/GIFsite.gif) | 
+| ![sample Chat-Bot](https://github.com/ClaudioJansen/Portal-De-Filmes/blob/main/img/GIFsite.gif) | 
