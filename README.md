@@ -5,4 +5,4 @@ Site de filmes desenvolvido com conteúdos adaptados da netflix, do youtube, e d
 # 
 |Site|
 | --- |
-| ![sample Chat-Bot](https://i.imgur.com/TexKE7Z.gif) | 
+| ![sample Chat-Bot](https://i.imgur.com/RsBeDvY.gif[) | 
